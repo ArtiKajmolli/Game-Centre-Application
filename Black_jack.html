@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Black Jack</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='Black-Jack.css'>
+    <script src='Black-Jack.js'></script>
+</head>
+<body>
+    <div class="blackJack">
+        <h1>Black Jack!</h1>
+        <h2>Dealer Hand: <span class="score"  id="dealerTotal"></span> </h2>
+            <div class="cards" id="dealerHand">
+            <img id="hiddenCard"  src="cards/back.png">
+    </div>
+
+        <h2>User Hand: <span class="score" id="userTotal"></span></h2>
+            <div class="cards" id="userHand"></div> <br>
+        <input type="button" class="playButton" id="hit" value="Hit" onclick="hit()">
+        <input type="button" class="playButton" id="stay" value="Stay" onclick="stay()">
+        <p id="verdict"></p>
+        <hr>
+    <input type="button" class="controlButtons" id="start"value="Start" onclick="startBlackJack()">
+    <input type="button" class="controlButtons" id="reset" value="reset" onclick="jackBlackReset()">
+    <p id="output"></p>
+    </div>
+</body>
+</html>

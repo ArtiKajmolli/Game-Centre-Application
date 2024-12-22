@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: Url(images_Black_Jack/pokerTable.png);
+    background-size: cover;
+}
+
+#dealerHand img{
+    height: 200px;
+    width: 140px;
+}
+
+#userHand img{
+    height: 200px;
+    width: 140px;
+}
+
+.score{
+    color:blue
+}
+
+#dealerTotal{
+    display: none;
+}
+
+.blackJack{
+    background-color: ivory;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid red;
+    border-radius: 25px;
+    
+}
+
+.playButton{
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.playButton:hover{
+    color:red;
+    background-color: green;
+}
+
+.controlButtons{
+    margin:5px;
+    border-radius: 25px;
+}
+
+#hiddenCard{
+    display:none;
+}
+
+#verdict{
+    font-weight: bold;
+}

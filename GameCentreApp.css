@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Blue gradient */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: #142850; /* Dark blue */
+    border-bottom: 5px solid #00a8cc; /* Cyan */
+}
+
+#header h1 {
+    font-size: 2.5rem;
+    color: #00a8cc; /* Cyan */
+    margin: 0;
+}
+
+/* Activity section */
+#activity {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+#headerActivity h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#headerActivity h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #d3d3d3; /* Light gray */
+}
+
+/* Buttons */
+.gameSelect {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #142850;
+    background-color: #00a8cc; /* Cyan */
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.gameSelect:hover {
+    background-color: #007a99; /* Darker cyan */
+    transform: scale(1.1);
+}
+
+.gameSelect:active {
+    background-color: #005f73; /* Even darker cyan */
+    transform: scale(0.95);
+}
+
+/* Footer (optional, if added later) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #142850;
+    color: #d3d3d3;
+    font-size: 0.9rem;
+    border-top: 5px solid #00a8cc;
+}

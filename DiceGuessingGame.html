@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Dice guessing game</title>
+        <link href="DiceGuessingGame.css" rel="stylesheet" >
+      <!-- <link href="Black_Jack/Black-Jack.css" rel="stylesheet">-->
+
+        <script src="DiceGuessingGame.js"></script>
+        <script src="Black_Jack/Black-Jack.js"></script>
+    </head>
+
+    <body>
+        <div id="DiceGuessingGame">
+    <div id="header">
+        <h1>Dice guessing game</h1>
+    </div>
+    <div id="activity">
+    <div id="activityHome">
+    <div id="headerActivity">
+        <h2>Welcome Friend!</h2>
+        <h3>Please Choose a Difficulty Here:</h3>
+    </div>
+        <input type="button" class="gameSelect" id="easy" value="Easy Mode" onclick="easyMode()"/>
+        <p id="easyText">1 Dice is Rolled, 5 attempts <br/> Reward: 1pt</p>
+        <br/>
+        <input type="button" Class="gameSelect" id="normal" value="Normal Mode" onclick="normalMode()"/>
+        <p id="easyText">1 Dice is Rolled, 5 attempts <br/> Reward: 3pt</p>
+        <br/>
+        <input type="button" Class="gameSelect" id="Hard" value="Hard Mode" onclick="hardMode()"/>
+        <p id="easyText">1 Dice is Rolled, 5 attempts <br/> Reward: 5pt</p>
+        <br/>
+    </div>
+
+    <div id="activityTime">
+    <div id="headerActivity">
+        <h2>You Chose <span id="gameMode"></span> Mode!</h2>
+        <h3>We Have Rolled <span id="dicenum">the</span> Dice!</h3>
+    </div>
+    <div id="gamePlay">
+        <p>Please enter your guess: </p>
+        <input type="number" id="input" min="0" max="6">
+        <input type="button" id="submit" value="Roll Dice" onclick="easyRoll()">
+        <p id="hint">Hint: </p>
+        <p id="chance">Guess Count: </p>
+        <input type="button" id="back" value="Back" onclick="back()"/>
+
+    </div>
+    </div>
+
+
+    <div id="activityVerdict">
+        <div id="headerActivity">
+            <h2 id="verdict2">Congratulations!!!</h2>
+            <h3 id="verdict3">You Guessed The correct Number!</h3>
+            <h3 id="score">Score: </h3>
+        </div>
+        <div id="controls">
+            <p>How would You Like to proceed </p>
+            <input type="button" id="endButt" value="roll Again" onclick="rollAgain()">
+    
+        </div>
+        </div>
+
+
+    </div>
+
+</div>
+    </body>
+</html>

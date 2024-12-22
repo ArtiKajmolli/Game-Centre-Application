@@ -1,0 +1,66 @@
+h1 {
+    color: blue;
+}
+
+body{
+    background-image: url("folderimages/Back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#header{
+    margin-top: 5%;
+    text-align: center;
+    border: 5px solid red;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: ivory;
+}
+
+#activity{
+    text-align: center;
+    border: 5px solid red;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: ivory;
+}
+.gameSelect{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    color: red;
+    float:left;
+    margin-left: 10%;
+}
+
+#easyText{
+    display: inline-block;
+    margin-bottom: 4%;
+}
+
+#headerActivity{
+    margin-bottom: 2%;
+}
+
+#activityTime{
+    display: none;
+}
+
+#activityVerdict{
+    display: none;
+}
+
+#gamePlay{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+#back{
+    display:inline-block;
+}
+
+#endButt{
+    margin-bottom: 4%;
+}
